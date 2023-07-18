@@ -22,15 +22,15 @@ Estimate of time needed to complete: 15 minutes
 
 Start time: 3:14 pm
 
-Finish time: _____
+Finish time: 3:38 pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 24 minutes
 
 Number and name of feature: Feature 3: Projects Section
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 30 minutes
 
-Start time: _____
+Start time: 3:39 pm
 
 Finish time: _____
 
