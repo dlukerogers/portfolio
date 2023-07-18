@@ -10,17 +10,17 @@ Number and name of feature: Feature 1: Clone Template and Deploy
 
 Estimate of time needed to complete: 30 minutes
 
-Start time: 2:45pm
+Start time: 2:45 pm
 
-Finish time: 3:05 pm
+Finish time: 3:13 pm
 
-Actual time needed to complete: 20 minutes
+Actual time needed to complete: 28 minutes
 
 Number and name of feature: Feature 2: About Me Page
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 15 minutes
 
-Start time: _____
+Start time: 3:14 pm
 
 Finish time: _____
 
