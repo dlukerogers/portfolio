@@ -47,19 +47,19 @@ class Header extends Component {
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
           <Nav.Item> 
             <LinkContainer to="/">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link className="nav-link" href="/">Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>        
             <LinkContainer to="/about">
-              <Nav.Link eventKey="about">About</Nav.Link>
+              <Nav.Link className="nav-link" eventKey="about">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
             <Switch 
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
-              offColor="#baaa80"
+              offColor="#2E4559"
               onColor="#353535"
               className="react-switch mx-auto"
               width={90}
@@ -107,7 +107,7 @@ class Header extends Component {
                 {name}
               </h1>
               <div className="title-container">
-                <HeaderTitleTypeAnimation />
+                <HeaderTitleTypeAnimation/>
               </div>
               
             </div>
