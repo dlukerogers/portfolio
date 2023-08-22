@@ -11,27 +11,28 @@
     },
     "projects": [
       {
-        "title": "Code 301 Final Project",
+        "title": "City Explorer",
         "startDate": "2023",
-        "description": "Placeholder Text for Code 301 Final Project",
+        "description": "This app gives a user the ability to type in any city within the United States. A map of the city, its coordinates, a 5 day weather forecast, and movies and restaurants associated with the city are returned to the user.",
         "images": [
-          "https://placehold.co/600x400",
-          "https://placehold.co/600x400",
-          "https://placehold.co/600x400"
+          "images/portfolio/city-explorer/ce-search-lat-lon-map.png",
+          "images/portfolio/city-explorer/ce-weather.png",
+          "images/portfolio/city-explorer/ce-movies.png",
+          "images/portfolio/city-explorer/ce-restaurants.png"
         ],
-        "url": "",
+        "url": "https://city-explorer-dlukerogers.netlify.app/",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-plain",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-nodejs-plain",
+            "name": "node.js"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           }
         ]
       },

@@ -31,12 +31,27 @@
         {
           "name": "React",
           "class": "devicon-react-plain",
-          "level": "75"
+          "level": "85"
         },
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "85"
+          "level": "95"
+        },
+        {
+          "name": "mongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "75"
+        },
+        {
+          "name": "node.js",
+          "class": "devicon-nodejs-plain",
+          "level": "75"
+        },
+        {
+          "name": "Express",
+          "class": "devicon-express-original",
+          "level": "70"
         },
         {
           "name": "Sass",
