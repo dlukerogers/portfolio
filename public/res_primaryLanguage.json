@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "I'm Luke Rogers. I live in Wheaton, Illinois where I graduated from Wheaton College with a bachelors in Business Economics. I was also a two-sport athlete, playing offensive line for the football team and throwing shot-put and discus on the track team. After graduating, I worked as a project manager at a small web development company. During my time there, I observed the developers and the work they did and I decided I wanted to become one. I enrolled in a full time software development bootcamp where I learned languages such as HTML, JavaScript, CSS, and React, amongst others. I am now a professional software developer excited to use my creativity and problem-solving skills to build tools that will help those in need.",
+      "description": "I'm Luke Rogers. I live in Wheaton, Illinois where I graduated from Wheaton College with a bachelors in Business Economics. I was also a two-sport athlete, playing offensive line for the football team and throwing shot-put and discus on the track team. After graduating, I worked as a project manager at a small web development company. During my time there, I observed the developers and the work they did and I decided I wanted to become one. I enrolled in a full time software development bootcamp where I learned languages such as JavaScript, CSS, and React, amongst others. I am now a professional software developer excited to use my creativity and problem-solving skills to build tools that will help those in need.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -10,6 +10,33 @@
       }
     },
     "projects": [
+      {
+        "title": "HungryHelper",
+        "startDate": "2023",
+        "description": "Mr. Al's HungryHelper app is a random restaurant generator. The user logs into their account. They fill out a form with price, location, and type of food as required criteria. When they hit submit, a Yelp API sends data to an array matching the criteria they requested. Then I use a random number generator to grab a random restaurant in the array to show to the user. The user can then hit \"make reservation\" which prompts them to fill out a form in order to make a reservation to the restaurant. The information entered will be uploaded to MongoDB and displayed on the reservations page. The user can also update and delete the reservation.",
+        "images": [
+          "images/portfolio/hungryhelper/hh-homepage.png",
+          "images/portfolio/hungryhelper/hh-request-form.png",
+          "images/portfolio/hungryhelper/hh-reservations.png",
+          "images/portfolio/hungryhelper/hh-about.png",
+          "images/portfolio/hungryhelper/hh-account.png"
+        ],
+        "url": "https://mr-als-hungryhelper.netlify.app/",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "node"
+          },
+          {
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
+          }
+        ]
+      },
       {
         "title": "City Explorer",
         "startDate": "2023",
@@ -46,31 +73,6 @@
           "images/portfolio/glad-gaming/glad-gaming-aboutuspage.png"
         ],
         "url": "https://github.com/glad-gaming/glad-games",
-        "technologies": [
-          {
-            "class": "devicon-html5-plain",
-            "name": "HTML5"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          },
-          {
-            "class": "devicon-css3-plain",
-            "name": "CSS3"
-          }
-        ]
-      },
-      {
-        "title": "Cookie Stand",
-        "startDate": "2023",
-        "description": "A project created in Code Fellows course Code 201. This web app was created for a fictional client named Pat who owned a chain of Salmon Cookies Shops. Pat asked that I create a website for his shop that included a home page and a sales page. The sales page is the spotlight of this web application. It features a table with the sales of each of Pat's cookie shops and allows the user to enter a new location using a form on the bottom of the page.",
-        "images": [
-          "images/portfolio/cookie-stand/cookie-stand-homepagetop.png",
-          "images/portfolio/cookie-stand/cookie-stand-homepagebottom.png",
-          "images/portfolio/cookie-stand/cookie-stand-salespage.png"
-        ],
-        "url": "https://github.com/dlukerogers/code-102-website",
         "technologies": [
           {
             "class": "devicon-html5-plain",
