@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "I'm Luke Rogers. I live in Wheaton, Illinois where I graduated from Wheaton College with a bachelors in Business Economics. I was also a two-sport athlete, playing offensive line for the football team and throwing shot-put and discus on the track team. After graduating, I worked as a project manager at a small web development company. During my time there, I observed the developers and the work they did and I decided I wanted to become one. I enrolled in a full time software development bootcamp where I learned languages such as Python, JavaScript, CSS, and React, amongst others. I am now a UX Projects manager at Christianity Today and web development freelancer for authors excited to use my creativity and problem-solving skills to build tools that will help those in need.",
+      "description": "I'm Luke Rogers. I live in Wheaton, Illinois where I graduated from Wheaton College with a bachelors in Business Economics. I was also a two-sport athlete, playing offensive line for the football team and throwing shot-put and discus on the track team. After graduating, I worked as a project manager at a small web development company. During my time there, I observed the developers and the work they did and I decided I wanted to become one. I enrolled in a full time software development bootcamp where I learned languages such as JavaScript, CSS, and React, amongst others. After my bootcamp, I taught myself Python. I am now a UX Projects manager at Christianity Today and web development freelancer for authors excited to use my creativity and problem-solving skills to build tools that will help those in need.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -90,6 +90,23 @@
       }
     ],
     "experience": [
+      {
+        "company": "Christianity Today",
+        "title": "UX Projects Manager",
+        "years": "12.2023 - present",
+        "mainTech": [
+          "WordPress"
+        ],
+        "technologies": [
+          "Piano",
+          "Underscore",
+          "Zoom",
+          "Monday.com",
+          "Active Campaign",
+          "BigCommerce",
+          "AWS"
+        ]
+      },
       {
         "company": "Verb",
         "title": "Project Manager",
