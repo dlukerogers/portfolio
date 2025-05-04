@@ -94,7 +94,7 @@ class Header extends Component {
         <div className="row aligner" style={{ height: '100%' }}>
           <div className="col-md-12">
             <div>
-              <img src="/images/portfolio-logo.svg" alt="LR logo"></img>
+              <img src="/images/portfolio-logo.svg" alt="LR logo" style={{ width: '200px' }}></img>
               <br />
               <h1 className="mb-0">
                 {name}
