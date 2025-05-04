@@ -11,6 +11,27 @@
     },
     "projects": [
       {
+        "title": "Stat Match - Basketball",
+        "startDate": "2025",
+        "description": "Compare college prospects to NBA players — or find which college star mirrors your favorite pro! Get the top 5 matches instantly.",
+        "images": [
+          "images/portfolio/stat-match/sm-list.png",
+          "images/portfolio/stat-match/sm-search.png",
+          "images/portfolio/stat-match/sm-match.png"
+        ],
+        "url": "https://statmatch.online",
+        "technologies": [
+          {
+            "class": "devicon-go-original-wordmark",
+            "name": "Go"
+          },
+          {
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
+          }
+        ]
+      },
+      {
         "title": "HungryHelper",
         "startDate": "2023",
         "description": "Mr. Al's HungryHelper app is a random restaurant generator. The user logs into their account. They fill out a form with price, location, and type of food as required criteria. When they hit submit, a Yelp API sends data to an array matching the criteria they requested. Then I use a random number generator to grab a random restaurant in the array to show to the user. The user can then hit \"make reservation\" which prompts them to fill out a form in order to make a reservation to the restaurant. The information entered will be uploaded to MongoDB and displayed on the reservations page. The user can also update and delete the reservation.",
@@ -92,13 +113,27 @@
     "experience": [
       {
         "company": "Christianity Today",
-        "title": "UX Projects Manager",
-        "years": "12.2023 - present",
+        "title": "WordPress & Frontend Developer",
+        "years": "4.2025 - present",
         "mainTech": [
           "WordPress"
         ],
         "technologies": [
-          "Piano",
+          "Piano.io",
+          "Monday.com",
+          "AWS",
+          "Cloudflare"
+        ]
+      },
+      {
+        "company": "Christianity Today",
+        "title": "UX Projects Manager",
+        "years": "12.2023 - 2025",
+        "mainTech": [
+          "WordPress"
+        ],
+        "technologies": [
+          "Piano.io",
           "Underscore",
           "Zoom",
           "Monday.com",

@@ -44,6 +44,16 @@
           "level": "90"
         },
         {
+          "name": "Go",
+          "class": "devicon-go-original-wordmark",
+          "level": "85"
+        },
+        {
+          "name": "Figma",
+          "class": "devicon-figma-plain",
+          "level": "95"
+        },
+        {
           "name": "mongoDB",
           "class": "devicon-mongodb-plain",
           "level": "80"
@@ -66,7 +76,7 @@
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "level": "90"
         }
       ]
     }

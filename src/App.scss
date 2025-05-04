@@ -18,7 +18,10 @@ html {
 
 .title-container {
 	height: 50px;
-	color: #ebeaf5
+	color: #ebeaf5;
+	font-size: 18px;
+  max-width: 640px;
+  margin: auto;
 }
 
 .title-styles {
@@ -417,7 +420,6 @@ header h1 {
 
 footer {
 	background: #2E4559;
-	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;

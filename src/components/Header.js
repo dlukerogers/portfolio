@@ -31,25 +31,25 @@ class Header extends Component {
       this.titles = this.props.sharedData.titles; //...map(x => [ x.toUpperCase(), 1500 ] ).flat();
     }
 
-    const HeaderTitleTypeAnimation = React.memo( () => {
+    const HeaderTitleTypeAnimation = React.memo(() => {
       return this.titles
     }, (props, prevProp) => true);
 
     return (
       <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
-          <Nav.Item> 
+          <Nav.Item>
             <LinkContainer to="/">
               <Nav.Link className="nav-link" href="/">Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
-          <Nav.Item>        
+          <Nav.Item>
             <LinkContainer to="/about">
               <Nav.Link className="nav-link" eventKey="about">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
-            <Switch 
+            <Switch
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
               offColor="#2E4559"
@@ -91,18 +91,19 @@ class Header extends Component {
             />
           </Nav.Item>
         </Nav>
-        <div className="row aligner" style={{height: '100%'}}>
+        <div className="row aligner" style={{ height: '100%' }}>
           <div className="col-md-12">
             <div>
+              <img src="./public/images/portfolio-logo.svg" alt="LR logo"></img>
               <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
-              <br/>
+              <br />
               <h1 className="mb-0">
                 {name}
               </h1>
               <div className="title-container">
-                <HeaderTitleTypeAnimation/>
+                <HeaderTitleTypeAnimation />
               </div>
-              
+
             </div>
           </div>
         </div>
